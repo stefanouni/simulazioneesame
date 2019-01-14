@@ -11,4 +11,8 @@ app.get('/square', function (req, res) {
     res.status(200).send( { result: result } )
 })
 
+app.get("/", function(req,res){
+    res.send("PIppo");
+})
+
 module.exports = app;
