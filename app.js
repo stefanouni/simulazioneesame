@@ -11,8 +11,8 @@ app.get('/square', function (req, res) {
     res.status(200).send( { result: result } )
 })
 
-app.get("/", function(req,res){
-    res.send("PIppo");
-})
+app.get('/', function(req, res) {
+	res.send('Hello! The API is at /api/v1');
+});
 
 module.exports = app;
