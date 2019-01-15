@@ -1,4 +1,4 @@
-const square = require('./square');
+const square = require('../square');
 
 test('square(1) should return -1', () => {
     expect(square(1)).toBe(-1)
